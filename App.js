@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Header from './Header';
-import Guinda from './Guinda';
+import Header from './src/Header';
+import Guinda from './src/Guinda';
 import './App.css';
 
 function App() {
