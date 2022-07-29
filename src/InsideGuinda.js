@@ -9,7 +9,7 @@ function InsideGuinda({ user }){
   return(
     <div>
       {`Você está agora no saguão da guinda, ${user} !`}
-      <p>A sua frente, está o quadro da guilda, com uma mensagem que aparenta ser importante...</p>
+      <p>A sua frente, está o quadro da guinda, com uma mensagem que aparenta ser importante...</p>
       <button onClick={() => (setHidden(false))}>Ler o aviso no quadro</button>
       <div>
         {hidden ? '' : 
